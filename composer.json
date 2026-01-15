@@ -1,0 +1,53 @@
+{
+  "name": "semdej/ns-travel-tile",
+  "description": "A Laravel package for NS travel information tile.",
+  "keywords": [
+    ":semdej",
+    "ns-travel-tile"
+  ],
+  "homepage": "https://github.com/semdej/ns-travel-tile",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": ":semdej",
+      "email": "semdejong04@gmail.com",
+      "homepage": "https://semdej.nl/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0|^7.4",
+    "spatie/laravel-dashboard": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3",
+    "squizlabs/php_codesniffer": "^3.6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Spatie\\NsTravelTile\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Spatie\\NsTravelTile\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+    "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Spatie\\NsTravelTile\\NsTravelTileServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
