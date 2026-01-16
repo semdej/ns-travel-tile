@@ -2,14 +2,14 @@
   "name": "semdej/ns-travel-tile",
   "description": "A Laravel package for NS travel information tile.",
   "keywords": [
-    ":semdej",
+    "semdej",
     "ns-travel-tile"
   ],
   "homepage": "https://github.com/semdej/ns-travel-tile",
   "license": "MIT",
   "authors": [
     {
-      "name": ":semdej",
+      "name": "semdej",
       "email": "semdejong04@gmail.com",
       "homepage": "https://semdej.nl/",
       "role": "Developer"
