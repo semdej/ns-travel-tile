@@ -22,7 +22,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require :vendor/:package_name
+composer require semdej/ns-travel-tile
 ```
 
 ## Usage
